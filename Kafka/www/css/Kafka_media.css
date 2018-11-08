@@ -76,6 +76,12 @@
 
     
 @media screen and (max-width : 480px) {
+    .main {
+        background-blend-mode: multiply;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     .header .h1 {
         font-size: 2rem;
     }
