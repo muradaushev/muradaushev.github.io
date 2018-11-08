@@ -366,8 +366,9 @@ input:focus {
     margin: 5px 20px;
     border-radius: 50%;
     background-color: #fff;
+    transition: background ease 0.5s;
 }
-.soc li a img:hover {
+.soc li img:hover {
     background-color: #555;
 }
 .footer-address img {
