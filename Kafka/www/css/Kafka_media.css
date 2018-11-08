@@ -1,0 +1,95 @@
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+    
+
+    
+@media only screen and (max-width : 992px) {
+    .main_header {
+        font-size: 1.3rem;
+    }
+    .header .h1 {
+        font-size: 4rem;
+    }
+       
+    
+@media only screen and (max-width : 768px) {
+    .main_header {
+        font-size: 1.1rem;
+    }
+    .main_header a {
+        padding: 0 10px;
+    }
+    .header .h1 {
+        font-size: 3rem;
+    }
+    .footer-address img {
+        width: 28px;
+        margin: 10px;
+}
+    footer-column-add {
+        font-size: 16px;
+    }
+    .footer-column-map {
+        width: 100%;
+    }
+}   
+    
+    
+@media only screen and (max-width : 576px) {
+    .header .logo>img  {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .main_header {
+        display: none; /*не видно изначально*/
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        z-index: 3;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .main_header a {
+        display: block;
+        font-size: 1.5rem;
+        margin: 80px auto;
+        width: 250px;
+}
+    .menu_burger {
+        right: 4%;
+    }
+    .header .h1 {
+        top: 20%;
+    }
+    .footer-column-add {
+        text-align: center;
+    }
+
+}    
+
+    
+@media only screen and (max-width : 480px) {
+    .header .h1 {
+        font-size: 2rem;
+    }
+    .reserve .form_h2 {
+        font-size: 1.9rem;
+    }
+}
+
+    
+    
+@media only screen and (max-width : 320px) {
+    
+}
+
+    
+    
+    
