@@ -30,10 +30,11 @@ body {
 .main_header a {
     text-decoration: none;
     padding: 0 20px;
-    color: #fff;
+    color: #e9b505;
+    transition: color ease 0.3s;
 }
 .main_header a:hover {
-    color: #b0b0b0;
+    color: #b18904;
     transition: all ease 0.3s;
     text-decoration: none;
 }
@@ -52,7 +53,7 @@ body {
     font-size: 5rem;
     text-transform: uppercase;
     white-space: nowrap;
-    color: #fff;
+    color: #bc9204;
 }
 .down {
     position: absolute;
@@ -250,7 +251,7 @@ body {
 .reserve .form_h2 {
     margin: 20px;
     font-size: 2.5rem;
-    color: #ff0000;
+    color: #bc9204;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -319,7 +320,7 @@ input:focus {
 }
 .reserve .button:focus, .reserve .button:hover {
     text-decoration: none;
-    background-color: #fff;
+    background-color: #bc9204;
     color: #000;
 }
 .button:hover::after {
