@@ -56,11 +56,19 @@ body {
 }
 .down {
     position: absolute;
-    height: 40px;
+    height: 60px;
     width: 60px;
+/*
     bottom: 10px;
     left: 50%;
     margin-left: -5px;
+*/
+    
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
     cursor: pointer;
     transition: ease all 0.3s;
 }
@@ -78,7 +86,7 @@ body {
 }
 .line_left {transform: translateY(0) translateX(-11px) rotate(-140deg);}
 .line_right {transform: translateY(0) translateX(11px) rotate(-40deg);}
-.down:hover {transform: translateY(8px);}
+.down:hover {transform: translate(-50%, -25%);}
 .down.active {
     opacity: 0;
     transition: all ease 0.4s;
