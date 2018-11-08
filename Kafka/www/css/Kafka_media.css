@@ -6,7 +6,7 @@
     
 
     
-@media only screen and (max-width : 992px) {
+@media screen and (max-width : 992px) {
     .main_header {
         font-size: 1.3rem;
     }
@@ -15,7 +15,7 @@
     }
        
     
-@media only screen and (max-width : 768px) {
+@media screen and (max-width : 768px) {
     .main_header {
         font-size: 1.1rem;
     }
@@ -38,7 +38,7 @@
 }   
     
     
-@media only screen and (max-width : 576px) {
+@media screen and (max-width : 576px) {
     .header .logo>img  {
         top: 50%;
         left: 50%;
@@ -75,7 +75,7 @@
 }    
 
     
-@media only screen and (max-width : 480px) {
+@media screen and (max-width : 480px) {
     .header .h1 {
         font-size: 2rem;
     }

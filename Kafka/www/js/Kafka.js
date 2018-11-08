@@ -1,7 +1,7 @@
 
 
 $( document ).ready(function() {
-    var windowWdth = $(window).width();
+    var windowWidth = $(window).width();
     var hamburger = $('.menu_burger');
     var body = $('body');
     var menu = $('.main_header');
@@ -10,7 +10,7 @@ $( document ).ready(function() {
         menu.slideToggle(350); //350 - скорость
         return false;
     });
-    if (windowWdth < 577) {
+    if (windowWidth < 577) {
         body.click(function() {
         hamburger.removeClass('active');
         menu.slideUp('.main_header');

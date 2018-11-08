@@ -58,7 +58,7 @@ body {
     position: absolute;
     height: 40px;
     width: 60px;
-    top: 640px;
+    bottom: 10px;
     left: 50%;
     margin-left: -5px;
     cursor: pointer;
@@ -111,7 +111,7 @@ body {
  }
 .menu_line {
     display: inline-block;
-    background: #fff;
+    background: #000;
     width: 35px;
     height: 4px;
     position: absolute;
@@ -132,11 +132,15 @@ body {
     transform: translateY(-3px);
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
+    -ms-transform:translateY(-3px);
+    -o-transform: translateY(-3px);
 }
 .menu_burger:hover .menu_line_bottom {
     transform: translateY(3px);
     -webkit-transform: translateY(3px);
     -moz-transform: translateY(3px);
+    -ms-transform:translateY(3px);
+    -o-transform: translateY(3px);
 }               
 .menu_burger.active .menu_line_top {
     transform: translateY(10px) translateX(0) rotate(45deg);
@@ -185,7 +189,7 @@ body {
 /*    background-color: #00506b;*/
 /*    background-color: #11506c;*/
     background-color: #fff;
-    border: 1px dotted #000;
+    border-top:  dotted #000;
     text-align: center;
 }
 .galery .row {
@@ -216,14 +220,24 @@ body {
 
 /*      RESERVATION      */
 
+.reservation .bgtable {
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;   
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
 
 .reservation .row {
-    height: 450px;
     margin: 0;
 }
 .reservation .row .reserve {
     background-color: #000;
-    opacity: 0.75;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
 }
 .reserve .form_h2 {
     margin: 20px;
@@ -254,7 +268,7 @@ input, textarea, select {
     background-color: transparent;
     border: #a7a7a7 2px solid;
     border-radius: 10px;
-    padding: 8px 20px;
+    padding: 8px 32px;
     color: #fff;
 }
 input::placeholder {
@@ -266,10 +280,9 @@ input:focus {
 }
 .reserve .button {
     display: block;
-    min-width: 240px;
-    width: 40%;
+    width: 240px;
     margin: 20px auto;
-    padding: 20px 30px;
+    padding: 20px 20px;
     border: none;
     color: #fff;
     text-decoration: none;
@@ -280,7 +293,6 @@ input:focus {
     letter-spacing: 3px;
     border-radius: 10px;
     text-align: center;
-/*    position: relative;*/
     outline: none;
     transition: background-color 0.3s ease;
 }
@@ -371,17 +383,6 @@ input:focus {
 .footer-column-map {
     padding-top: 15%;
 }
-.bgtable {
-    position: absolute;
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-/*    background-color: rgba(77, 114, 135, 0.68);*/
-    height: 65%;
-    width: 100%;
-    left: 0;
-}
 
 
 /*      UP      */
@@ -418,83 +419,7 @@ input:focus {
 
 
 
-@media only screen and (max-width : 992px) {
-    .main_header {
-        font-size: 1.3rem;
-    }
-    .header .h1 {
-        font-size: 4rem;
-    }
-       
-    
-@media only screen and (max-width : 768px) {
-    .main_header {
-        font-size: 1.1rem;
-    }
-    .main_header a {
-        padding: 0 10px;
-    }
-    .header .h1 {
-        font-size: 3rem;
-    }
-    .footer-address img {
-        width: 28px;
-        margin: 10px;
-}
-    footer-column-add {
-        font-size: 16px;
-    }
-    .footer-column-map {
-        width: 100%;
-    }
-}   
-    
-    
-@media only screen and (max-width : 576px) {
-    .header .logo>img  {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .main_header {
-        display: none; /*не видно изначально*/
-        position: fixed;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        text-align: center;
-        z-index: 3;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-    .main_header a {
-        display: block;
-        font-size: 1.5rem;
-        margin: 80px auto;
-        width: 250px;
-}
-    .menu_burger {
-        right: 4%;
-    }
-    .header .h1 {
-        top: 20%;
-    }
-    .footer-column-add {
-        text-align: center;
-    }
 
-}    
-
-    
-@media only screen and (max-width : 480px) {
-    .header .h1 {
-        font-size: 2rem;
-    }
-    .reserve .form_h2 {
-        font-size: 1.9rem;
-    }
-}
 
 
 
