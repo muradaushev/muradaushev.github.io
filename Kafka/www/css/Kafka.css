@@ -8,10 +8,11 @@ body {
     font-family: 'Trebuchet MS', Helvetica;
 }
 .main {
+    background-image: url(../img/Header.png);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center 25%;
+    background-position: center;
     background-color: rgba(77, 114, 135, 0.68);
     min-height: 700px;
     height: 100vh;
@@ -38,6 +39,7 @@ body {
     transition: all ease 0.3s;
     text-decoration: none;
 }
+
 .header .logo>img {
     position: absolute;
     top: 20px;
