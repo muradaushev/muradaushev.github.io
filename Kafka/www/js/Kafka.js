@@ -23,12 +23,14 @@ $( document ).ready(function() {
 
 
 
-
 function slowScroll(id) {
-    $('body').animate({ //анимирую всю страницу - <body>
-        scrollTop:$(id).offset().top //scrollTop - прокручиваю с верха страницы //offset().top - отступ сверху
+    $('html, body').animate({ //анимирую всю страницу - <body>
+        scrollTop:$(id).offset().top-60 //scrollTop - прокручиваю с верха страницы //offset().top - отступ сверху
     }, 500);
 }
+
+
+
 
 
 $( document ).ready(function() {

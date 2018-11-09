@@ -120,7 +120,7 @@ body {
  }
 .menu_line {
     display: inline-block;
-    background: #000;
+    background: #bc9204;
     width: 35px;
     height: 4px;
     position: absolute;
@@ -153,27 +153,28 @@ body {
 }               
 .menu_burger.active .menu_line_top {
     transform: translateY(10px) translateX(0) rotate(45deg);
-    background: white;
+    background: #bc9204;
 }
 .menu_burger.active .menu_line_middle {
     opacity: 0;
 }
 .menu_burger.active .menu_line_bottom {
     transform: translateY(-10px) translateX(0) rotate(-45deg);
-    background: white;
+    background: #bc9204;
 }
 
 
 /*      MENU      */
 
 
-#menu_card .row {
+#menu_card {
     display: flex;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
     padding: 60px 20px;
-    background-color: #fff;
+    background-color: #242424;
+    color: #fff;
 }
 #menu_card .row .menu_card {
     margin: auto; /*работает с flex*/
@@ -197,8 +198,8 @@ body {
     padding-bottom: 50px;
 /*    background-color: #00506b;*/
 /*    background-color: #11506c;*/
-    background-color: #fff;
-    border-top:  dotted #000;
+    background-color: #242424;
+    border-top:  dotted #bc9204;
     text-align: center;
 }
 .galery .row {
@@ -209,6 +210,8 @@ body {
     width: 200px;
     height: 200px;
     margin: 30px;
+    background-color: #bc9204;
+    opacity: 0.3;
 /*    border: 1px solid black;*/
     transition: all 200ms ease-in;
 }
@@ -249,7 +252,7 @@ body {
     width: 100%;
 }
 .reserve .form_h2 {
-    margin: 20px;
+    margin: 30px 20px;
     font-size: 2.5rem;
     color: #bc9204;
     font-weight: 600;
@@ -290,7 +293,7 @@ input:focus {
 .reserve .button {
     display: block;
     width: 240px;
-    margin: 20px auto;
+    margin: 20px auto 50px auto;
     padding: 20px 20px;
     border: none;
     color: #fff;
@@ -411,7 +414,7 @@ input:focus {
     transition: all ease 0.3s;
 }
 .top img:hover {
-    background-color: #fff;
+    background-color: #bc9204;
     opacity: 1;
 }
 .top img.active {
