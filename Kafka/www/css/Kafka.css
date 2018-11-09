@@ -38,10 +38,25 @@ body {
     transition: all ease 0.3s;
     text-decoration: none;
 }
-
+.header .language {
+    position: relative;
+    top: 10px;
+    left: 20px;
+   
+}
+.header .language>img {
+    position: absolute;
+    width: 40px;
+    top: 3%;
+    left: 3%;
+}
+.header .language>img:hover {
+    width: 45px;
+    transition: width ease 0.3s;
+}
 .header .logo>img {
     position: absolute;
-    top: 20px;
+    top: 40px;
     width: 200px;
 }
 .header .h1 {
