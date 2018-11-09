@@ -8,7 +8,6 @@ body {
     font-family: 'Trebuchet MS', Helvetica;
 }
 .main {
-    background-image: url(../img/Header.png);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
