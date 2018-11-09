@@ -39,15 +39,14 @@
     
     
 @media screen and (max-width : 576px) {
+    .main {
+        background-position: 10%;
+        background-color: rgba(77, 114, 135, 0.68);
+    }
     .header .logo>img  {
-        background-image: url(../img/Burger.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-/*
         top: 50%;
         left: 50%;
-*/
+        transform: translate(-50%, -50%);
     }
     .main_header {
         display: none; /*не видно изначально*/

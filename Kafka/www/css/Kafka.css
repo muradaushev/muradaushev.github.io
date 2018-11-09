@@ -11,7 +11,7 @@ body {
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: center 25%;
     background-color: rgba(77, 114, 135, 0.68);
     min-height: 700px;
     height: 100vh;
