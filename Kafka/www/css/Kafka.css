@@ -115,10 +115,9 @@ body {
 .main_header.active {  
     margin: 0;
     background-color: #000;
-    z-index: 11;
+    z-index: 5;
     transition: background-color ease 0.5s;
 }
-
 
 
 /*      BURGER-MENU      */
@@ -258,7 +257,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
 .reservation .row {
     margin: 0;
 }
