@@ -17,8 +17,19 @@
     
 @media screen and (max-width : 768px) {
     .main {
+        background-blend-mode: multiply;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: 58%;   
+        background-color: rgba(0, 0, 0, 0.7);
+/*
+        height: 100%;
+        width: 100%;
+*/
+/*
         background-color: #000;
         opacity: 1;
+*/
     }
     .header .logo>img  {
         top: 50%;
@@ -82,8 +93,10 @@
     
 @media screen and (max-width : 576px) {
     .main {
+/*
         background-color: #000;
         opacity: 1;
+*/
     }
     .header .logo>img  {
         top: 50%;
