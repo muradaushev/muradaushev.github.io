@@ -115,7 +115,7 @@ body {
 .main_header.active {  
     margin: 0;
     background-color: #000;
-    z-index: 5;
+    z-index: 11;
     transition: background-color ease 0.5s;
 }
 
