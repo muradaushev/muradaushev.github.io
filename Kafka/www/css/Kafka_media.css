@@ -16,7 +16,6 @@
        
     
 @media screen and (max-width : 768px) {
-     
     .main {
         background-color: #000;
         opacity: 1;
@@ -60,7 +59,16 @@
     .header .h1 {
         font-size: 3rem;
     }
-    
+    .reservation .bgtable {
+        background-blend-mode: multiply;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;   
+        margin: 0;
+        height: 100%;
+        width: 100%;
+}   
     .footer-address img {
         width: 28px;
         margin: 10px;
