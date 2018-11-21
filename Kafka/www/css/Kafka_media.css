@@ -70,6 +70,14 @@
     .header .h1 {
         font-size: 3rem;
     }
+    .menu_line {
+        width: 35px;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        border-radius: 4px;
+        transition: all 0.4s;
+}
     .reservation .bgtable {
         background-blend-mode: multiply;
         background-attachment: scroll;
@@ -89,6 +97,10 @@
     .footer-column-map {
         width: 100%;
     }
+    .slider {
+        margin: 150px auto;
+        width: 400px;
+}
 }   
     
     

@@ -22,15 +22,11 @@ $( document ).ready(function() {
 });
 
 
-
 function slowScroll(id) {
     $('html, body').animate({ //анимирую всю страницу - <body>
         scrollTop:$(id).offset().top-60 //scrollTop - прокручиваю с верха страницы //offset().top - отступ сверху
     }, 500);
 }
-
-
-
 
 
 $( document ).ready(function() {
@@ -83,4 +79,98 @@ $('.up').click(function() {
 $('.down').click(function() {
     $('html, body').animate({scrollTop:'700px'});
 })
+
+$(window).on('load', function() {
+    $('.preloader').delay(1000).fadeOut('slow');
+})
+
+
+//      SLIDER      //
+
+
+// Получаем переменные
+let arrowLeft = document.getElementById("arrow-left"),
+    arrowRight = document.getElementById("arrow-right"),
+    sliderImg = document.getElementById("slider-img"),
+    dotsWrap = document.getElementsByClassName("slider-dots")[0],
+    dots = document.getElementsByClassName("dot"),
+    left = -400,
+    imgWidth = 200;
+
+// Стартовая позиция слайдера
+sliderImg.style.left = left + 'px';
+
+//Функция перелистывания
+slideTo = (direction) => {
+  if (direction == "left") {
+    left = left - imgWidth;
+  }
+  
+  if (direction == "right") left += imgWidth;
+  if (left < -800) left = 0;
+  if (left > 0) left =-800;
+  //Убираем все активные классы
+  for (let item of dots) {
+    item.classList.remove("active_2");
+  }
+  
+  // Вставляем функцию switch для соединения строелок и точек при переключении стрелками
+  switch (left) {
+    case 0:
+      dots[0].classList.add("active_2");
+      break;
+    case -400:
+      dots[1].classList.add("active_2");
+      break;
+    case -800:
+      dots[2].classList.add("active_2");
+      break;
+  }
+  sliderImg.style.left = left + "px";
+}
+
+// Автоматическое переключение
+  let timerId = setInterval(() => {
+    slideTo("left"); //Направление перелистывания можно поставить right
+  }, 4000);
+  
+arrowLeft.addEventListener("click", () => {
+  clearInterval(timerId); //Останавливает таймер при клике на левую кнопку
+  slideTo("left");
+});
+
+arrowRight.addEventListener("click", () => {
+  clearInterval(timerId); //Останавливает таймер при клике на правую кнопку
+  slideTo("right");
+});
+
+// Переключение точек 
+dotsWrap.addEventListener("click", (event) => {
+  clearInterval(timerId); //Останавливает таймер при клике на точки
+  let target = event.target;
+  for (let item of dots) {
+    item.classList.remove("active_2");
+  }
+  if(target.classList.contains("dot")) {
+     target.classList.add("active_2");
+  }
+  
+  // Перелистывание слайдера при нажании на точку
+  switch (target) {
+    case dots[0]:
+      left = 0;
+      break;
+    case dots[1]:
+      left = -400; // если поставить -200, и следующее -400то листается по одной картинке
+      break;
+    case dots[2]:
+      left = -800; // если поставить -400, и предыдущее -200то листается по одной картинке
+      break;
+  }
+  
+  sliderImg.style.left = left + 'px';
+  
+  })
+
+
 
