@@ -214,6 +214,10 @@
         width: 150px;
         padding: 10px;
     }
+    
+     .map iframe {
+        height: 160px;
+    }
 
     .contacts .adress {
         text-align: center;
