@@ -60,6 +60,12 @@
         /*        background-color: #999999;*/
     }
 
+    .photo {
+        height: 200px;
+        width: 200px;
+        margin: 5px;
+    }
+
 }
 
 @media screen and (max-width : 768px) {
@@ -95,7 +101,7 @@
     }
 
     .photos-wrapper .photos-3 {
-        display: none;
+        /*        display: none;*/
     }
 
     .photos-wrapper img {
@@ -116,6 +122,11 @@
         /*        background-color: #999999;*/
     }
 
+    .photo {
+        height: 170px;
+        width: 170px;
+        margin: 5px;
+    }
 
 }
 
@@ -140,13 +151,15 @@
         font-size: 34px;
     }
 
-    .photos-wrapper .photos-3 {
-        display: none;
-    }
-
     .photos-wrapper img {
         width: 200px;
         padding: 10px;
+    }
+
+
+    .photo {
+        height: 170px;
+        width: 170px;
     }
 
 }
@@ -179,7 +192,7 @@
         height: 100vh;
         z-index: 2;
     }
-    
+
     nav .nav-item {
         margin: 0 auto;
     }
@@ -187,7 +200,6 @@
     nav .nav-item:last-child {
         margin-right: auto;
     }
-
 
     .nav-wrapper {
         display: block;
@@ -199,7 +211,7 @@
         margin-bottom: 30px;
         margin-left: 20px;
     }
-    
+
     .nav-wrapper .logo {
         margin-left: 50px;
     }
@@ -231,6 +243,66 @@
         padding: 10px;
     }
 
+    .photo {
+        height: 210px;
+        width: 210px;
+    }
+
+    .photo-1 {
+        background-blend-mode: multiply;
+        background-image: url(../img/IMG-8161.jpg);
+        background-position: -48px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: padding-box;
+        border: 2px solid #ffffff;
+    }
+
+    .photo-2 {
+        background-image: url(../img/IMG-8160.jpg);
+        background-position: -53px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: padding-box;
+        border: 2px solid #ffffff;
+    }
+
+    .photo-3 {
+        background-image: url(../img/IMG-8159.jpg);
+        background-position: -6px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: padding-box;
+        border: 2px solid #ffffff;
+    }
+
+    .photo-4 {
+        background-image: url(../img/IMG-8158.jpg);
+        background-position: -52px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: padding-box;
+        border: 2px solid #ffffff;
+    }
+
+    .photo-5 {
+        background-image: url(../img/IMG-8163.jpg);
+        background-position: center -4px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: padding-box;
+        border: 2px solid #ffffff;
+    }
+
+    .photo-6 {
+        background-image: url(../img/IMG-8166.jpg);
+        background-position: -32px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: padding-box;
+        border: 2px solid #ffffff;
+    }
+
     .map iframe {
         height: 160px;
     }
@@ -246,7 +318,7 @@
     .photo {
         height: 178px;
         width: 178px;
-        /*    background-color: #999999;*/
+        margin: 1px;
     }
 
     .photo-1 {
@@ -327,7 +399,6 @@
     .photo {
         height: 150px;
         width: 150px;
-        /*    background-color: #999999;*/
     }
 
     .photo-1 {
@@ -337,7 +408,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-clip: padding-box;
-        border: 2px solid #ffffff;
+        border: 1px solid #ffffff;
     }
 
     .photo-2 {
@@ -346,7 +417,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-clip: padding-box;
-        border: 2px solid #ffffff;
+        border: 1px solid #ffffff;
     }
 
     .photo-3 {
@@ -355,7 +426,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-clip: padding-box;
-        border: 2px solid #ffffff;
+        border: 1px solid #ffffff;
     }
 
     .photo-4 {
@@ -364,7 +435,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-clip: padding-box;
-        border: 2px solid #ffffff;
+        border: 1px solid #ffffff;
     }
 
     .photo-5 {
@@ -373,7 +444,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-clip: padding-box;
-        border: 2px solid #ffffff;
+        border: 1px solid #ffffff;
     }
 
     .photo-6 {
@@ -382,7 +453,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-clip: padding-box;
-        border: 2px solid #ffffff;
+        border: 1px solid #ffffff;
     }
 
     .photos-wrapper img {
