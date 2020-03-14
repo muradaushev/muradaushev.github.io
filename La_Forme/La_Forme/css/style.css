@@ -20,6 +20,7 @@ body {
 
 .wrapper {
     width: 84%;
+    max-width: 1000px;
     margin: auto;
     background-color: #ffffff;
 }
@@ -233,15 +234,15 @@ header {
 }
 
 .photo {
-    height: 150px;
-    width: 150px;
-/*    background-color: #999999;*/
+    height: 250px;
+    width: 250px;
+    margin: 5px;
 }
 
 .photo-1 {
     background-blend-mode: multiply;
     background-image: url(../img/IMG-8161.jpg);
-    background-position: -40px ;
+    background-position: -48px ;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
@@ -250,7 +251,7 @@ header {
 
 .photo-2 {
     background-image: url(../img/IMG-8160.jpg);
-    background-position: -45px ;
+    background-position: -48px ;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
@@ -268,7 +269,7 @@ header {
 
 .photo-4 {
     background-image: url(../img/IMG-8158.jpg);
-    background-position: -44px;
+    background-position: -55px;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
@@ -292,8 +293,31 @@ header {
     background-clip: padding-box;
     border: 1px solid #ffffff;  
 }
+.photo-7 {
+    background-image: url(../img/IMG-8165.jpg);
+    background-position: -58px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
+.photo-8 {
+    background-image: url(../img/La_Forme_1.jpg);
+    background-position: 1px -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
 
-
+.photo-9 {
+    background-image: url(../img/IMG-8162.jpg);
+/*    background-position: 1px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
 
 img {
     width: 250px;
