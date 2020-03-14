@@ -100,9 +100,10 @@ nav.visible {
 .menu-burger {
     width: 35px;
     height: 20px;
-    position: absolute;
+/*     position: absolute; */
+    position: fixed;
     top: 5%;
-    right: 12%;
+    right: 6%;
     display: none;
     cursor: pointer;
     z-index: 5;
