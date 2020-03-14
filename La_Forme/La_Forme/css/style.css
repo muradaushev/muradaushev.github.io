@@ -33,30 +33,31 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 90px;
-    /* border-bottom: 1px solid #999999; */
+/*     border-bottom: 1px solid #999999; */
 }
 
 .nav-wrapper-after {
     margin: 80px auto;
 }
 
-/*
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 40px;
+    height: 40px;
     background-image: url(../img/IMG-8168.jpg);
-    background-position: -100px -25px;
+    background-position: -14px -1px;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
 }
-*/
 
+/*
 .logo img {
     width: 200px;
     border-radius: 50px;
     background-position: center;
     border-image: url(../img/IMG-8168.jpg);
 }
+*/
 
 nav.visible {
     visibility: visible;
@@ -100,7 +101,7 @@ nav.visible {
 .menu-burger {
     width: 35px;
     height: 20px;
-/*     position: absolute; */
+    /*    position: absolute;*/
     position: fixed;
     top: 5%;
     right: 6%;
@@ -218,6 +219,8 @@ header {
     margin-bottom: 15px;
 }
 
+/**********GALERY**********/
+
 .photos-wrapper {
     display: flex;
     justify-content: space-around;
@@ -226,17 +229,81 @@ header {
     margin: auto;
     /* margin-bottom: 100px;*/
     /* padding-bottom: 100px; */
-    /* border-bottom: 1px solid #999999;*/
+/*     border-bottom: 1px solid #999999;*/
 }
+
+.photo {
+    height: 150px;
+    width: 150px;
+/*    background-color: #999999;*/
+}
+
+.photo-1 {
+    background-blend-mode: multiply;
+    background-image: url(../img/IMG-8161.jpg);
+    background-position: -40px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
+
+.photo-2 {
+    background-image: url(../img/IMG-8160.jpg);
+    background-position: -45px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
+
+.photo-3 {
+    background-image: url(../img/IMG-8159.jpg);
+    background-position: -6px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
+
+.photo-4 {
+    background-image: url(../img/IMG-8158.jpg);
+    background-position: -44px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
+
+.photo-5 {
+    background-image: url(../img/IMG-8163.jpg);
+    background-position: center -2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
+
+.photo-6 {
+    background-image: url(../img/IMG-8166.jpg);
+    background-position: -32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;  
+}
+
+
 
 img {
     width: 250px;
     /*    height: 200px;*/
     /*    border-radius: 50%;*/
     padding: 10px;
+    display: none;
 }
 
-.map {
+.map iframe {
     display: block;
     width: 87%;
     margin: auto;
