@@ -343,6 +343,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     height: 200px;
     width: 87%;
     margin: auto;
@@ -374,6 +375,7 @@ img {
     top: 15px;
     left: -30px;
 }
+
 
 .social-item {
     font-size: 27px;
