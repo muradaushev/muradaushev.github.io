@@ -34,7 +34,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 90px;
-/*     border-bottom: 1px solid #999999; */
+    /*     border-bottom: 1px solid #999999; */
 }
 
 .nav-wrapper-after {
@@ -84,7 +84,7 @@ nav.visible {
 .nav-item-active {
     color: #111111;
     text-decoration: none;
-    /* font-weight: 600; */
+     font-weight: 600; 
     border-bottom: 1px solid #999999;
 }
 
@@ -230,7 +230,7 @@ header {
     margin: auto;
     /* margin-bottom: 100px;*/
     /* padding-bottom: 100px; */
-/*     border-bottom: 1px solid #999999;*/
+    /*     border-bottom: 1px solid #999999;*/
 }
 
 .photo {
@@ -242,29 +242,29 @@ header {
 .photo-1 {
     background-blend-mode: multiply;
     background-image: url(../img/IMG-8161.jpg);
-    background-position: -48px ;
+    background-position: -48px;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
 
 .photo-2 {
     background-image: url(../img/IMG-8160.jpg);
-    background-position: -48px ;
+    background-position: -48px;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
 
 .photo-3 {
     background-image: url(../img/IMG-8159.jpg);
-    background-position: -6px ;
+    background-position: -6px;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
 
 .photo-4 {
@@ -273,7 +273,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
 
 .photo-5 {
@@ -282,7 +282,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
 
 .photo-6 {
@@ -291,32 +291,34 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
+
 .photo-7 {
     background-image: url(../img/IMG-8165.jpg);
     background-position: -58px;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
+
 .photo-8 {
     background-image: url(../img/La_Forme_1.jpg);
     background-position: 1px -10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
 
 .photo-9 {
     background-image: url(../img/IMG-8162.jpg);
-/*    background-position: 1px;*/
+    /*    background-position: 1px;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: padding-box;
-    border: 1px solid #ffffff;  
+    border: 1px solid #ffffff;
 }
 
 img {
