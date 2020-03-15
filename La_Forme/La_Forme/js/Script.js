@@ -25,6 +25,7 @@
 //}
 
 
+let b = document.querySelector('.body');
 let burger = document.querySelector('.menu-burger');
 let nav = document.querySelector('nav');
 let home = document.getElementsByClassName('nav-item')[0];
@@ -40,42 +41,47 @@ let contact = document.getElementsByClassName('nav-item')[3];
 burger.addEventListener('click', function () {
     burger.classList.toggle('active');
     nav.classList.toggle('visible');
+    b.classList.toggle('hidden');
 })
 
 home.addEventListener('click', function () {
     burger.classList.remove('active');
     nav.classList.remove('visible');
+    b.classList.remove('hidden');
 })
 about.addEventListener('click', function () {
     burger.classList.remove('active');
     nav.classList.remove('visible');
+    b.classList.remove('hidden');
 })
 blog.addEventListener('click', function () {
     burger.classList.remove('active');
     nav.classList.remove('visible');
+    b.classList.remove('hidden');
 })
 contact.addEventListener('click', function () {
     burger.classList.remove('active');
     nav.classList.remove('visible');
+    b.classList.remove('hidden');
 })
-window.addEventListener('scroll', function () {
-    burger.classList.remove('active');
-    nav.classList.remove('visible');
-})
+//window.addEventListener('scroll', function () {
+//    burger.classList.remove('active');
+//    nav.classList.remove('visible');
+//})
 
 
 
 const anchors = document.querySelectorAll('a.scroll-to')
 
 for (let anchor of anchors) {
-  anchor.addEventListener('click', function (event) {
-    event.preventDefault()
-    
-    const blockID = anchor.getAttribute('href')
-    
-    document.querySelector(blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
+    anchor.addEventListener('click', function (event) {
+        event.preventDefault()
+
+        const blockID = anchor.getAttribute('href')
+
+        document.querySelector(blockID).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
     })
-  })
 }
