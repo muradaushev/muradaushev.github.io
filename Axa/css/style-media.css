@@ -1,0 +1,238 @@
+@media only screen and (max-width : 1200px) {
+
+    body {
+        background-color: #fbfbfb;
+    }
+
+    .wrapper {
+        /*        background-color: #fff;*/
+        width: 100%;
+        padding: 0;
+    }
+
+    .header_top {
+        margin: 30px 30px;
+    }
+
+    .main-menu ul li {
+        font-size: 26px;
+    }
+
+    .pool img,
+    .sauna_mix img,
+    .sauna_women img,
+    .solarium img,
+    .massage img {
+        height: 400px;
+        width: 400px;
+    }
+
+    /*
+    .pool_info,
+    .sauna_mix_info,
+    .sauna_women_info,
+    .solarium_info,
+    .massage_info {
+        width: 40%;
+    }
+*/
+
+}
+
+@media only screen and (max-width : 1024px) {
+    
+    .main-menu ul li {
+        font-size: 22px;
+    }
+
+}
+
+
+@media screen and (max-width : 992px) {
+
+    /*
+    
+    .header_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+*/
+
+
+    body {
+        font-size: 14px;
+    }
+
+    .main-menu ul li {
+        float: left;
+        list-style: none;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 20px;
+    }
+
+    .main-menu ul li:first-child {
+        /*                padding-left: 20px;*/
+    }
+
+    .main-menu ul li:last-child {
+        /*                padding-right: 20px;*/
+    }
+
+    .logo img {
+        height: 40px;
+        width: 146px;
+    }
+
+    .lang img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .pool img,
+    .sauna_mix img,
+    .sauna_women img,
+    .solarium img,
+    .massage img {
+        height: 350px;
+        width: 350px;
+    }
+
+    footer {
+        font-size: 12px
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .footer_map iframe {
+        width: 800px;
+        height: 300px;
+        border: 3px solid #000
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .header_top {
+        flex-direction: column;
+    }
+
+    .logo {
+        padding-bottom: 20px;
+    }
+
+    .lang {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+
+    hr {
+        margin: 50px auto;
+    }
+
+    .pool_main,
+    .sauna_mix_main,
+    .sauna_women_main,
+    .solarium_main,
+    .massage_main {
+        flex-direction: column;
+    }
+
+    .pool_info,
+    .sauna_mix_info,
+    .sauna_women_info,
+    .solarium_info,
+    .massage_info {
+        padding-top: 20px;
+        width: 80%;
+    }
+
+    .price_info table {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .price_info table td {
+        padding: 1px 5px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    .footer_top ul {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media only screen and (max-width : 576px) {
+    .main-menu ul li {
+        padding: 0 25px;
+    }
+
+    hr {
+        margin: 0 auto 50px auto;
+    }
+
+    hr:nth-of-type(1),
+    hr:nth-of-type(8) {
+        display: none;
+    }
+
+    hr:nth-of-type(2) {
+        margin-top: 50px;
+    }
+
+    .pool_info,
+    .sauna_mix_info,
+    .sauna_women_info,
+    .solarium_info,
+    .massage_info {
+        width: 55%;
+        position: relative;
+        top: -70px;
+        padding: 10px;
+        background-color: #fbfbfb;
+        border: 1px solid #000;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+}
+
+
+@media screen and (max-width : 480px) {}
+
+@media only screen and (max-width : 375px) {}
+
+@media only screen and (max-width : 320px) {}
+
+@media only screen and (max-width : 320px) {}
+
+/***************************/
