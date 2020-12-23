@@ -155,6 +155,17 @@
         flex-direction: column;
     }
 
+    .about_info {
+        max-width: 80%;
+        font-size: 10px;
+        line-height: 2;
+    }
+
+    .first-paragraph {
+        font-size: 10px;
+        line-height: 2;
+    }
+
     .pool_info,
     .sauna_mix_info,
     .sauna_women_info,
@@ -162,6 +173,8 @@
     .massage_info {
         padding-top: 20px;
         width: 80%;
+        font-size: 10px;
+        line-height: 2;
     }
 
     .price_info table {
